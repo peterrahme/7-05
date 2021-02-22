@@ -12,7 +12,7 @@ function checking () {
   if (((notAWeekend === 'monday') || (notAWeekend === 'tuesday') || (notAWeekend === 'wednesday') || (notAWeekend === 'thursday') || (notAWeekend === 'friday')) && (userAge < 18)) {
     document.getElementById('answer').innerHTML = 'Time for school!'
   } else if (((notAWeekend === 'monday') || (notAWeekend === 'tuesday') || (notAWeekend === 'wednesday') || (notAWeekend === 'thursday') || (notAWeekend === 'friday')) && (userAge >= 18)) {
-  document.getElementById('answer').innerHTML = 'Time to go to work!'
+    document.getElementById('answer').innerHTML = 'Time to go to work!'
   } else {
     document.getElementById('answer').innerHTML = 'Relax for weekend!'
   }
